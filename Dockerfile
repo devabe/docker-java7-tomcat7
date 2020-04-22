@@ -1,6 +1,6 @@
 FROM inovatrend/java7
 
-MAINTAINER Akli BECHA <akli.becha@gmail.com>
+MAINTAINER Abe <contact@tafatek.com>
 
 ENV TOMCAT_MAJOR_VERSION 7
 ENV TOMCAT_MINOR_VERSION 7.0.88
