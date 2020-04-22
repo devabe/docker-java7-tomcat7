@@ -31,22 +31,5 @@ You can now configure to this Tomcat server using:
 A prebuilt container is available on Docker Hub, you can get it with following command
 
 ```sh
-docker pull inovatrend/tomcat7-java7
+docker pull abecha/tomcat7-jdk7:tagname
 ```
-
-### Usage
-
-To test run it, run following command:
-
-```sh
-docker run --rm -P -t -i inovatrend/tomcat7-java7 /sbin/my_init -- bash -l
-```
-
-To run it as daemon, you can use command similar to this one:
-
-```sh
-docker run -d -p 49154:8080 --name app_name -e "JAVA_OPTS=-Dsome.property=value -Xmx1024m" -e "TOMCAT_PASS=somePass" inovatrend/tomcat7-java7
-```
-
-
-# docker-java7-tomcat7
